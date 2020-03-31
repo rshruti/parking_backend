@@ -83,7 +83,7 @@
 	<distributionManagement>
           <snapshotRepository>
              <id>nexus</id>
-             <url>http://107.23.32.235:8081/nexus/content/repositories/Release5/</url>
+             <url>http://107.23.32.235:8081/nexus/content/repositories/snapshots/</url>
           </snapshotRepository>
         </distributionManagement>
 	<build>
