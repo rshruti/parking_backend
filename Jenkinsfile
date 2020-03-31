@@ -8,7 +8,7 @@ pipeline {
 	}
 	stage('Build'){
             steps{
-                sh '/opt/maven/bin/mvn clean package -Dmaven.test.skip=true'                
+                sh '/opt/maven/bin/mvn clean verify -Dmaven.test.skip=true'                
             }
         }  
         
