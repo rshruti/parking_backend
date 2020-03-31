@@ -74,14 +74,18 @@
 			<artifactId>twilio</artifactId>
 			<version>7.41.2</version>
 		</dependency>
+		<dependency>
+                  <groupId>org.flywaydb</groupId>
+                  <artifactId>flyway-core</artifactId>
+                  <version>6.3.2</version>
+                </dependency>
 	</dependencies>
 	<distributionManagement>
-	  <snapshotRepository>
-	    <id>nexus</id>
-	    <url>http://107.23.32.235:8081/nexus/content/repositories/Release5/</url>
-	  </snapshotRepository>
-	</distributionManagement>
-	
+          <snapshotRepository>
+             <id>nexus</id>
+             <url>http://107.23.32.235:8081/nexus/content/repositories/Release5/</url>
+          </snapshotRepository>
+        </distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
