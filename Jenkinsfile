@@ -6,20 +6,12 @@ pipeline {
             git 'https://github.com/rshruti/parking_backend.git'
 		}
 	}
-	stage('Build') {
-		steps {
-			withSonarQubeEnv('sonar') {
-				sh '/opt/maven/bin/mvn clean verify sonar:sonar -Dmaven.test.skip=true'
-			}
-		}
-	}
-	stage("Quality Gate") {
-            steps {
-              timeout(time: 5, unit: 'MINUTES') {
-                waitForQualityGate abortPipeline: true
-              }
+	stage('Build'){
+            steps{
+                sh '/opt/maven/bin/mvn clean package -Dmaven.test.skip=true'                
             }
-          }
+        }  
+        
 	stage ('Deploy') {
 		steps {
 			sh '/opt/maven/bin/mvn clean deploy -Dmaven.test.skip=true'
