@@ -87,12 +87,12 @@
           </snapshotRepository>
         </distributionManagement> -->
 	<distributionManagement>
-          <repository>
-             <id>central</id>
-             <name>ip-172-31-53-83.ec2.internal-releases</name>
-             <url>http://54.237.84.9:8082/artifactory/libs-release-local</url>
-          </repository>
-      </distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-53-83.ec2.internal-snapshots</name>
+        <url>http://54.237.84.9:8082/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
