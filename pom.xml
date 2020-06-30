@@ -85,6 +85,7 @@
        <url>https://github.com/rshruti/parking_backend.git</url>
        <developerConnection>scm:git:https://github.com/rshruti/parking_backend.git</developerConnection>
       <tag>HEAD</tag>
+       </scm>
 	<distributionManagement>
           <snapshotRepository>
              <id>nexus</id>
