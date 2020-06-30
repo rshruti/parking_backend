@@ -81,9 +81,9 @@
                 </dependency>
 	</dependencies>
 	<scm>
-       <connection>scm:https://github.com/rshruti/maven-multi-module-example.git</connection>
-       <url>https://github.com/rshruti/maven-multi-module-example.git</url>
-       <developerConnection>scm:git:https://github.com/rshruti/maven-multi-module-example.git</developerConnection>
+       <connection>scm:https://github.com/rshruti/parking_backend.git</connection>
+       <url>https://github.com/rshruti/parking_backend.git</url>
+       <developerConnection>scm:git:https://github.com/rshruti/parking_backend.git</developerConnection>
       <tag>HEAD</tag>
 	<!-- <distributionManagement>
           <snapshotRepository>
