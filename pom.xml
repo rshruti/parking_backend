@@ -164,7 +164,7 @@
                 <version>2.18.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/</suiteXmlFile>
+                        <suiteXmlFile>*</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>			
