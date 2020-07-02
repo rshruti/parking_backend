@@ -103,11 +103,11 @@
 	<distributionManagement>
    <snapshotRepository>
       <id>nexus</id>
-      <url>http://18.141.215.198:8081/nexus/content/repositories/snapshots/</url>
+      <url>http://3.0.249.139:8081/nexus/content/repositories/snapshots/</url>
    </snapshotRepository>
    <repository>
       <id>nexus</id>
-      <url>http://18.141.215.198:8081/nexus/content/repositories/releases/</url>
+      <url>http://3.0.249.139:8081/nexus/content/repositories/releases/</url>
    </repository>
 </distributionManagement>
 	<build>
