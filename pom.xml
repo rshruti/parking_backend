@@ -177,7 +177,7 @@
                 <testFailureIgnore>true</testFailureIgnore>
                 <!-- Use it if required-->
                 </configuration>
-		<plugin>
+		</plugin>
 			</plugins>
 	</build>
 </project>
