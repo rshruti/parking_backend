@@ -53,10 +53,10 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-    <groupId>org.codehaus.sonar</groupId>
-    <artifactId>sonar-maven-plugin</artifactId>
-    <version>3.7</version>
-</dependency>
+    <dependency>
+			<groupId>org.codehaus.mojo</groupId>
+			<artifactId>sonar-maven-plugin</artifactId>
+			<version>3.6.0.1398</version>
                  <dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
