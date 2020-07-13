@@ -91,8 +91,13 @@
               </dependency>
 
 </dependencies>
-    
-    <distributionManagement>
+	<scm>
+       <connection>scm:https://github.com/rshruti/parking_backend.git</connection>
+       <url>https://github.com/rshruti/parking_backend.git</url>
+       <developerConnection>scm:git:https://github.com/rshruti/parking_backend.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+     <distributionManagement>
              <snapshotRepository>
          <id>nexus</id>
         <url>http://13.212.18.220:8081/nexus/content/repositories/snapshots/</url>
