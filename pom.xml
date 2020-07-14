@@ -9,7 +9,7 @@
     </parent>
     <groupId>com.hcl</groupId>
     <artifactId>parking</artifactId>
-     <version>1.5</version>
+     <version>1.6-SNAPSHOT</version>
     <!-- <version>1.0</version> -->
     <name>parking</name>
     <description>Demo project for Spring Boot</description>
@@ -102,7 +102,7 @@
        <connection>scm:https://github.com/rshruti/parking_backend.git</connection>
        <url>https://github.com/rshruti/parking_backend.git</url>
        <developerConnection>scm:git:https://github.com/rshruti/parking_backend.git</developerConnection>
-    <tag>1.5</tag>
+    <tag>HEAD</tag>
   </scm>
      <distributionManagement>
              <snapshotRepository>
