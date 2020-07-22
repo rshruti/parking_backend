@@ -152,7 +152,7 @@
 			    <version>6.3.2</version>
 			    <configuration>
                               <url>jdbc:mysql://172.31.24.78:3306</url>
-                              <user>flyuser3</user>
+                              <user>flyuser2</user>
 		              <password>H@ckath0n</password>
 			      <schemas>
                                  <schema>testdb</schema>
