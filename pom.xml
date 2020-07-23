@@ -107,11 +107,11 @@
      <distributionManagement>
              <snapshotRepository>
          <id>nexus</id>
-        <url>http://18.141.187.221:8081/nexus/content/repositories/snapshots/</url>
+        <url>http://13.229.69.106:8081/nexus/content/repositories/snapshots/</url>
          </snapshotRepository> 
               <repository>
             <id>nexus</id>
-            <url>http://18.141.187.221:8081/nexus/content/repositories/releases/</url>
+            <url>http://13.229.69.106:8081/nexus/content/repositories/releases/</url>
                    </repository>
         
     </distributionManagement>
@@ -152,10 +152,10 @@
 			    <version>6.3.2</version>
 			    <configuration>
                               <url>jdbc:mysql://172.31.24.78:3306</url>
-                              <user>flyuser2</user>
+                              <user>flyuser4</user>
 		              <password>H@ckath0n</password>
 			      <schemas>
-                                 <schema>testdb</schema>
+                                 <schema>*</schema>
                               </schemas>
                            </configuration>	
 			 </plugin>
